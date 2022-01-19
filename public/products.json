@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Four cheese",
+    "price": 799,
+    "size": "Medium",
+    "image": "https://i.ibb.co/bNkkj6p/PIZZA.png"
+  },
+  {
+    "name": "Chicken mushroom",
+    "price": 699,
+    "size": "Small",
+    "image": "https://i.ibb.co/nc1b72F/tasty-italian-pizza-1-270x270-crop-center.png"
+  },
+  {
+    "name": "Margarita",
+    "price": 699,
+    "size": "Medium",
+    "image": "https://i.ibb.co/LS263Sd/depositphotos30103299stockphotopepperonipizza270x270-1.jpg"
+  },
+  {
+    "name": "Carbonara",
+    "price": 999,
+    "size": "Large",
+    "image": "https://i.ibb.co/fYbQnBD/images-1270x270.jpg"
+  },
+  {
+    "name": "Mix BBQ",
+    "price": 1299,
+    "size": "Large",
+    "image": "https://i.ibb.co/jDpV8bw/images-5270x270.jpg"
+  },
+  {
+    "name": "Mushroom",
+    "price": 499,
+    "size": "Small",
+    "image": "https://i.ibb.co/M6tzqQ6/images-6270x270.jpg"
+  },
+  {
+    "name": "Double peperoni",
+    "price": 1399,
+    "size": "Large",
+    "image": "https://i.ibb.co/bskxDDK/images.jpg"
+  },
+  {
+    "name": "Chicken premier",
+    "price": 899,
+    "size": "Medium",
+    "image": "https://i.ibb.co/NLPxfcF/images-3270x270.jpg"
+  },
+  {
+    "name": "Caramel pineapple",
+    "price": 799,
+    "size": "Small",
+    "image": "https://i.ibb.co/tZZHmsR/images-2270x270.jpg"
+  },
+  {
+    "name": "Havana special",
+    "price": 599,
+    "size": "Small",
+    "image": "https://i.ibb.co/L9YHpz1/2882881053margheritapizzatransparenthdpngdownload270x270.png"
+  }
+]
