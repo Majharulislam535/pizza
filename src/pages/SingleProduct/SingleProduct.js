@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 const SingleProduct = () => {
     const { id } = useParams();
@@ -36,6 +37,7 @@ const SingleProduct = () => {
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

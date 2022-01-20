@@ -6,7 +6,8 @@ import useCartApi from '../../ContextApi/useCartApi';
 
 const Navigation = () => {
 
-    const { cart } = useCartApi();
+    const { cart, firebase } = useCartApi();
+    const { signOutEmail, user } = firebase;
     return (
         <div>
             <nav className='lg:container md:container lg:mx-auto md:mx-auto w-11/12  mx-auto  flex items-center py-4 justify-between'>
@@ -31,6 +32,15 @@ const Navigation = () => {
                                 </div>
                             </NavLink>
                         </li>
+                        <li className='ml-4'>
+                            <p >{user?.displayName} </p>
+                        </li>
+                        <li className='ml-4'>
+                            {
+                                user?.displayName ? <button className='underline decoration-1' onClick={signOutEmail}>Sign Out</button> : <NavLink to="/login" className='underline decoration-1'>Login</NavLink>
+                            }
+                        </li>
+
                     </ul>
                 </div>
             </nav>

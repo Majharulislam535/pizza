@@ -1,4 +1,5 @@
 import React, { createContext, useEffect, useState } from 'react';
+import useFirebase from '../Firebase/useFirebase';
 
 export const CartContext = createContext();
 
@@ -15,8 +16,10 @@ const ContextApi = ({ children }) => {
         window.localStorage.setItem('cart', JSON.stringify(cart));
     }, [cart])
 
+    const firebase = useFirebase();
+
     return (
-        <CartContext.Provider value={{ cart, setCart }}>
+        <CartContext.Provider value={{ cart, setCart, firebase }}>
             {children}
         </CartContext.Provider>
     );

@@ -1,16 +1,14 @@
 import React from 'react';
-import Hero from '../../components/HeroSection/Hero';
 import Footer from '../Footer/Footer';
 import Products from '../Products/Products';
 
-const Home = () => {
+const ProductPage = () => {
     return (
         <>
-            <Hero></Hero>
-            <Products />
+            <Products></Products>
             <Footer></Footer>
         </>
     );
 };
 
-export default Home;
+export default ProductPage;
