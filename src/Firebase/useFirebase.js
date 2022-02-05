@@ -1,7 +1,7 @@
 import app from "./firebsae.init";
 import { getAuth, createUserWithEmailAndPassword, signOut, onAuthStateChanged, updateProfile, signInWithEmailAndPassword } from "firebase/auth";
-import { useState } from "react/cjs/react.development";
-import { useEffect } from "react";
+
+import { useEffect, useState } from "react";
 
 app();
 
